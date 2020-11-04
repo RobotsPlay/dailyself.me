@@ -1,0 +1,36 @@
+@import 'reset';
+
+@import 'layout';
+@import 'typography';
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.page-header,
+.page-content,
+.page-footer {
+    padding: 4vw 6vw;
+
+    @media screen and (min-width: 1201px) {
+        padding: 4rem 10rem;
+    }
+}
+
+.page-header {
+
+}
+
+.page-content {
+
+}
+
+.page-footer {
+   
+}
+
